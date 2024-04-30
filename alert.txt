@@ -1,0 +1,36 @@
+<a href="https://www.google.com">HTML</a>
+<p>HTML</p>
+<i>HTML</i>
+<iframe src="https://www.google.com" title="test"></iframe>
+<<h1>html</h1>>
+<button type="button">Click Me!</button> 
+<cite>Html Html</cite> 
+<code>Html</code>
+<s>Only 50 tickets left</s>
+<time datetime="2008-02-14 20:00">HTML</time>
+
+
+'
+''
+`
+``
+,
+"
+""
+/
+//
+\
+'='
+'LIKE'
+
+
+<img src="abc" onerror="alert(1)">
+';alert('abc');'
+<body onload=confirm(123) >
+<body onmouseover="print()">
+<body onclick=print()>
+<IFRAME SRC="javascript:alert('XSS');"></IFRAME>
+<IFRAME SRC=# onmouseover="alert(document.cookie)"></IFRAME>
+'-alert(1)-'
+?s="onerror="alert`1337`"
+javascript:alert(document.cookie)
